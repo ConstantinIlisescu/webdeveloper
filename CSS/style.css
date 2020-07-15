@@ -1,0 +1,168 @@
+/******************************************************HTML TAGS*************************************************/
+
+a {
+    color: #11999E;
+} 
+
+.footer-link:hover {
+    color: white;
+}
+
+body {
+    margin: 0;
+    color: #40514e;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif; 
+    line-height: 2;
+}
+
+span {
+    text-decoration: underline  ;
+}
+
+
+h1 {
+    font-family: 'Sacramento', cursive;
+    font-weight: lighter;
+    font-size: 7rem;
+    margin: 50px auto 0 auto;
+    color: #66bfbf;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+    font-size: 2.5rem;
+    color: #66bfbf;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: lighter;
+    font-size: 1.5rem;
+    color: #11999E
+}
+
+
+hr {
+    border:none;
+    border-top:6px  #eaf6f6 dotted ;
+    width: 4%;
+    margin: 7% auto;
+}
+
+
+
+
+
+
+
+/******************************************************CLASSES**********************************************/
+
+.btn {
+	box-shadow: 3px 4px 0px 0px #21b4b9;
+	background:linear-gradient(to bottom, #11999E 5%, #0c6f72 100%);
+	background-color:#11999E;
+	border-radius:5px;
+	border:1px solid #236e70;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family: 'Montserrat', sans-serif;
+	font-size:12px;
+	font-weight:bold;
+	padding:11px 19px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #37c7cc;
+}
+.btn:hover {
+	background:linear-gradient(to bottom, #0c6f72 5%, #11999E 100%);
+	background-color:#0c6f72;
+}
+.btn:active {
+	position:relative;
+	top:1px;
+}
+
+.bottom-container {
+    padding-top: 15px;
+    line-height: 3;
+    background-color:#66bfbf;
+    margin: 40px 0 0 0  ;
+}
+.bottom-container p {
+    color: #eaf6f6;
+    margin: 0 auto;
+    padding: 10px;
+}
+.bottom-container a {
+    color: #11999e;
+    font-weight: bold;
+    font-size: 15px;
+    text-decoration: none;
+    padding: 20px 20px 10px 20px;
+} 
+
+.image1 {
+    width: 25%;
+    float: left;
+    margin: 0 30PX 10px 0;
+}
+
+.image2 {
+    width: 25%;
+    float: right;
+    margin-left: 30PX;
+}
+
+.skills {
+    text-align: center;
+}
+.skills h2 {
+    margin-bottom: 80px;
+}
+
+.skill-row {
+    margin: 10px auto;
+    width: 30%;
+    text-align: left;
+    line-height: 2;
+    border-image-width: 25%;
+}
+
+.top-container  {
+    background-color: #eaf6f6;
+    position: relative;
+    padding-top: 100px;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 250px;
+    top: 50px;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 250px;
+    bottom: 300px;
+}
+
+.main-paragraph {
+    width: 20%;
+    margin: auto    ;
+}
+
+.main-h2 {
+    margin-top:0;
+}
+
+.main-image {
+    margin-top: 40px;
+}
+
+
+
+
+/******************************************************ID's*************************************************/
